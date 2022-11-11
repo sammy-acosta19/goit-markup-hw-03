@@ -16,29 +16,29 @@
       rel="stylesheet"
     />
     <title>tarea de casa 1 sin CCS</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
     <!-- ENCABEZADO -->
     <header>
-      <nav>
-        <ul>
+      <nav class="menu">
+        <ul class="menu-items">
           <li><a class="logo" href="">Web Studio</a></li>
           <li><a class="nav" href="">Estudio</a></li>
           <li><a class="nav" href="portafolio.html">Portafolio</a></li>
           <li><a class="nav" href="">Contactos</a></li>
         </ul>
+        <ul class="menu-items">
+          <li>
+            <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="contact" href="tel:+525555296000">+525555296000</a>
+          </li>
+        </ul>
       </nav>
-      <ul>
-        <li>
-          <a class="contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact" href="tel:+525555296000 ">+525555296000</a>
-        </li>
       </ul>
     </header>
     <!-- TUTULO - BOTON-->
@@ -52,7 +52,7 @@
     </section>
     <!-- LISTA - DESCRIPCION -->
     <section>
-      <ul>
+      <ul class="parrafos">
         <li>
           <h2 class="subtittles">ATENCIÓN A LOS DETALLES</h2>
           <p class="text">
@@ -86,15 +86,13 @@
           </p>
         </li>
       </ul>
-      <section class="clearfix"></section>
     </section>
     <!-- IMAGENES -->
-    <h3 class="subsection">A qué nos dedicamos</h3>
-    <section>
+    <section class="images">
+      <h3 class="subsection">A qué nos dedicamos</h3>
       <img src="images/teclado.jpg" width="200" alt="tecladotablet" />
       <img src="images/portatil.jpg" width="200" alt="portatiltelefono" />
       <img src="images/tablet.jpg" width="200" alt="tabletcolores" />
-      <section class="clearfix"></section>
     </section>
     <!-- IMAGENES EQUIPO - DESCRIPCION -->
     <main>
