@@ -8,6 +8,10 @@
     font-family: "Raleway", "Roboto", sans-serif;
     margin: 0;
   }
+  .img {
+    max-width: 100%;
+  }
+
 /* Encabezado*/
 .header-title {
   font-family: 'Raleway';
@@ -87,7 +91,7 @@ background-color: #FFFFFF;
   color:#2196F3
 }
 .nav:active{
- color: #2196F3
+ color:#2196F3
 }
 .item:hover{
   background: #2196F3;
@@ -120,6 +124,85 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-bottom: 95px;
+}
+.details {
+  margin-top: 95px;
+}
+.details-container {
+  max-width: calc(1600px - 430px);
+  margin: 0 auto;
+  display: flex;
+ gap: 30px;
+}
+.details-item-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 10px;
+}
+.details-item-description {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #757575;
+margin-bottom: 94px;
+}
+.servis-container {
+  max-width: calc(1600px - 430px);
+  margin-inline: auto;
+}
+.servis-items {
+  display: flex;
+  gap: 30px;
+}
+.servis-img {
+  flex-basis: 100%;
+  /* object-fit: cover; */
+}
+.servis-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #212121;
+margin-bottom: 55px;
+}
+.professions {
+  margin-top: 188px;
+}
+.professions-container {
+  max-width: calc(1600px - 430px);
+  margin-inline: auto;
+  display: flex;
+  gap: 30px;
+}
+.professions-title {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+color: #212121;
+}
+.professions-title-name {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #212121;
+}
+.jobs {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #757575;
 }
 .boton{
   display: flex;
