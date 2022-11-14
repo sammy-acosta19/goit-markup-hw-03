@@ -7,14 +7,15 @@
   <meta name="description" content="El estudio de los conceptos basicos de HTML5 para principiantes" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
-  <title>tarea de casa 1 sin CCS</title>
   <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
   <link rel="stylesheet" href="css/styles.css" />
+  <title>tarea de casa 1 sin CCS</title>
+
 </head>
 <body>
   <!-- ENCABEZADO -->
-  <header class="contenedor-header">
-    <div class="contenedor-principal">
+  <header class="header">
+    <div class="contenedor-principal container">
       <a class="header-title" href="">WebStudio</a>
       <nav class="menu">
         <ul class="menu-items-1">
@@ -25,10 +26,10 @@
       </nav>
       <ul class="menu-items-2">
         <li>
-          <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a class="contact" href="tel:+525555296000">+525555296000</a>
+          <a class="phone" href="tel:+525555296000">+525555296000</a>
         </li>
       </ul>
     </div>
@@ -36,15 +37,15 @@
   </header>
   <main>
     <!-- TUTULO - BOTON-->
-    <section class="fondo">
-      <div class="boton">
+    <section class="background-container">
+      <div class="boton container">
         <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
         <button type="button" class=" btn-principal">Solicite nuestro servicio</button>
       </div>
     </section>
     <!-- LISTA - DESCRIPCION -->
     <section class="details">
-        <ul class="details-container">
+        <ul class="details-container container">
           <li class="details-items">
             <h3 class="details-item-title">ATENCIÓN A LOS DETALLES</h3>
             <p class="details-item-description">
@@ -82,7 +83,7 @@
 
     <!-- IMAGENES -->
     <section class="servis">
-      <div class="servis-container">
+      <div class="servis-container container">
       <h2 class="servis-title">A qué nos dedicamos</h2>
       <div class="servis-items">
         <img class="servis-img" src="images/teclado.jpg" width="373" alt="tecladotablet" />
@@ -94,7 +95,7 @@
     <!-- IMAGENES EQUIPO - DESCRIPCION -->
     <section class="professions"> 
       <h2 class="professions-title">Nuestro Equipo</h2>
-        <ul class="professions-container">
+        <ul class="professions-container container">
           <li>
             <img  class="professions-img"src="images/imagen3.jpg" width="270" alt="andrescubo" />
             <h3 class="professions-title-name">Andrés Cubo</h3>
@@ -119,17 +120,16 @@
     </section>
   </main>
   <!-- PARTE FINAL -->
-  <footer>
-    <a class="header-title" href="">WebStudio</a>
-    <nav class="menu">
-    <address>
-    <ul>
-      <li><a href="direccion">Calz. Ticomán 500, Ciudad de México, CDMX, México</a>      
-      </li>
-      <li><a href="correo">WebStudio@gmail.com</a></li>
-      <li><a href="telefono">+52 55 5529 6000</a></li>
-   </ul>
-    </address>
-  </footer>
+  <footer class="footer">
+    <div class="footer-container container">
+      <address class="footer-address">
+        <a class="footer-logo" href="">Web Studio</a>
+        <a class="footer-location" href="Calz.Ticomán500,CiudaddeMéxico,CDMX,México">Calz. Ticomán 500, Ciudad de
+          México,CDMX, México</a>
+        <a class="footer-email" href="info@example.com">info@example.com</a>
+
+        <a class="footer-phone" href="tel:+525555296000 ">+525555296000</a>
+      </address>
+    </div>
 </body>
 </html>
