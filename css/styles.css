@@ -20,8 +20,10 @@
   }
 
 /* Encabezado*/
-.header{
-  margin-bottom: 106px;
+.header-portafolio{
+  margin-bottom: 80px;
+  border: 1px solid #ECECEC;
+
 }
 .container {
   width: 100%;
@@ -86,11 +88,11 @@ color: #757575;
 .nav:active{
  color:#2196F3
 }
-.item:hover{
+.item-1:hover{
   background: #2196F3;
   cursor: pointer;
 }
-.items:hover{
+.items-2:hover{
   background: #2196F3;
   cursor: pointer;
 }
@@ -99,7 +101,14 @@ color: #757575;
   background: #2196F3;
   cursor: pointer;
 }
-
+.email:hover{
+  color: #2196F3;
+  cursor: pointer;
+}
+.phone:hover{
+  color: #2196F3;
+  cursor: pointer;
+}
 .background-container{
 background: #2F303A;
 border: 1px solid #000000;
@@ -184,16 +193,20 @@ margin-bottom: 10px;
 }
 .professions {
   margin-top: 188px;
+  background: #F5F4FA;
+  height: 648px;
 }
 .professions-container {
   display: flex;
   gap: 30px;
+  margin-bottom: 94px;
 }
 .professions-title {
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 36px;
 text-align: center;
+margin-bottom: 50px;
 color: #212121;
 }
 .professions-title-name {
@@ -257,12 +270,10 @@ color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
 }
 .products-items {
-   display: flex;
-   flex-grow: 1;
-   margin-left: 142px;
-   flex-wrap: wrap;
-   gap: 30px;
-   
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .button {
   font-family: 'Roboto';
@@ -270,9 +281,56 @@ color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
+  background: #F5F4FA;
 }
+.button1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+.button2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+.button3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+.button4{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background: #F5F4FA;
+  border-radius: 4px;
+  }
+.button5{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+
 .products-title {
   font-family: 'Roboto';
   font-weight: 700;
@@ -286,7 +344,7 @@ color: rgba(255, 255, 255, 0.6);
   color: #757575;
 }
 .products-img {
-  height: 375px;
+  width: 90%;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
     1px 4px 6px rgb(0 0 0 / 16%);
