@@ -7,129 +7,148 @@
   <meta name="description" content="El estudio de los conceptos basicos de HTML5 para principiantes" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="./css/modern-normalize.css">
+  <link rel="stylesheet" href="./css/styles.css" />
   <title>tarea de casa 1 sin CCS</title>
 
 </head>
+
 <body>
-  <!-- ENCABEZADO -->
-  <header class="header">
-    <div class="contenedor-principal container">
-      <a class="header-title" href="">WebStudio</a>
-      <nav class="menu">
-        <ul class="menu-items-1">
-          <li><a class="nav-1" href="">Estudio</a></li>
-          <li><a class="nav-1" href="portafolio.html">Portafolio</a></li>
-          <li><a class="nav-1" href="">Contactos</a></li>
+  <!-- SECTION - HEADER-->
+  <header class="page-header">
+    <nav>
+      <!-- LOGO -->
+      <a class="logo" href="index.html">WebStudio</a>
+      <!-- MENU -->
+        <ul class="menu-nav-list">
+          <li><a class="page current" href="./index.html">Estudio</a></li>
+          <li><a class="page" href="./portafolio.html">Portafolio</a></li>
+          <li><a class="page" href="">Contactos</a></li>
         </ul>
       </nav>
-      <ul class="menu-items-2">
-        <li>
-          <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="phone" href="tel:+525555296000">+525555296000</a>
-        </li>
+      <!-- CONTACTOS -->
+      <ul class="menu-nav-contacts">
+        <li> <a class="item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li> <a class="item" href="tel:+525555296000">+525555296000</a></li>
       </ul>
-    </div>
-    </div>
   </header>
+
+      <!-- SECTION MAIN -->
   <main>
     <!-- TUTULO - BOTON-->
-    <section class="background-container">
-      <div class="boton container">
+    <section class="bg-fondo">
         <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button" class=" btn-principal">Solicite nuestro servicio</button>
-      </div>
+        <button type="button" class=" button-primary">Solicite nuestro servicio</button>
     </section>
     <!-- LISTA - DESCRIPCION -->
     <section class="details">
-        <ul class="details-container container">
-          <li class="details-items">
-            <h3 class="details-item-title">ATENCIÓN A LOS DETALLES</h3>
-            <p class="details-item-description">
+      <div class="container">
+        <ul class="details-list">
+          <li>
+            <h3 class="title">ATENCIÓN A LOS DETALLES</h3>
+            <p class="details-description">
               Nos adentramos en todos los detalles y procesos de su negocio, para
               así desarrollar una solución a su medida.
             </p>
           </li>
   
           <li>
-            <h3 class="details-item-title">PUNTUALIDAD</h3>
-            <p class="details-item-description">
+            <h3 class="title">PUNTUALIDAD</h3>
+            <p class="details-description">
               Con nosotros, usted puede sentirse seguro y protegido. Un principio
               importante de la empresa: respetar su tiempo y respetar los plazos
-              acordados.
-            </p>
+              acordados.  </p>
           </li>
   
           <li>
-            <h3 class="details-item-title">PLANIFICACIÓN</h3>
-            <p class="details-item-description">
+            <h3 class="title">PLANIFICACIÓN</h3>
+            <p class="details-description">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
   
           <li>
-            <h3 class="details-item-title">TEGNOLOGÍA MODERNA</h3>
-            <p class="details-item-description">
+            <h3 class="title">TEGNOLOGÍA MODERNA</h3>
+            <p class="details-description">
               Usamos herramientas innovadoras para resolver las tareas asignadas.
               Es hora de simplificar los procesos laborales.
             </p>
           </li>
         </ul>
+      </div>
     </section>
 
-    <!-- IMAGENES -->
-    <section class="servis">
-      <div class="servis-container container">
-      <h2 class="servis-title">A qué nos dedicamos</h2>
-      <div class="servis-items">
-        <img class="servis-img" src="images/teclado.jpg" width="373" alt="tecladotablet" />
-        <img class="servis-img" src="images/portatil.jpg" width="373" alt="portatiltelefono" />
-        <img class="servis-img" src="images/tablet.jpg" width="373" alt="tabletcolores" />
+    <!--LISTA IMAGES -->
+    <section class="servis no-top-pading">
+      <h2>A qué nos dedicamos</h2>
+      <div class="container">
+        <!-- IMAGES -->
+        <ul>
+          <li>
+        <img  src="./images/teclado.jpg"  alt="tecladotablet" width="100%"/>
+          </li>
+          <li>
+        <img src="./images/portatil.jpg" alt="portatiltelefono" width="100%"/>
+          </li>
+          <li>
+        <img src="./images/tablet.jpg"  alt="tabletcolores" width="100%"/>
+          </li>
+        </ul>  
       </div>
-    </div>
     </section>
-    <!-- IMAGENES EQUIPO - DESCRIPCION -->
+    <!-- SECTION - PROFESSIONS-->
     <section class="professions"> 
-      <h2 class="professions-title">Nuestro Equipo</h2>
-        <ul class="professions-container container">
+      <h2>Nuestro Equipo</h2>
+      <div class="container">
+        <!-- IMAGES - EQUIPO - DESCRIPCION -->
+        <ul class="professions-work">
           <li>
-            <img  class="professions-img"src="images/imagen3.jpg" width="270" alt="andrescubo" />
-            <h3 class="professions-title-name">Andrés Cubo</h3>
-            <p class="jobs">Diseñador de Productos</p>
+            <img src="images/imagen3.jpg"  alt="andrescubo" width="270"/>
+            <h3>Andrés Cubo</h3>
+            <p>Diseñador de Productos</p>
           </li>
+
           <li>
-            <img src="images/imagen4.jpg" width="270" alt="carlapalacios" />
-            <h3 class="professions-title-name">Carla Palacios</h3>
-            <p class="jobs">Desarrolladora Frontend</p>
+            <img src="images/imagen4.jpg" alt="carlapalacios"  width="270"/>
+            <h3>Carla Palacios</h3>
+            <p>Desarrolladora Frontend</p>
           </li>
+
           <li>
-            <img src="images/imagen5.jpg" width="270" alt="mariodorado" />
-            <h3  class="professions-title-name">Mario Dorado</h3>
-            <p class="jobs">Marketing</p>
+            <img src="images/imagen5.jpg" alt="mariodorado" width="270"/>
+            <h3>Mario Dorado</h3>
+            <p>Marketing</p>
           </li>
+
           <li>
-            <img src="images/imagen6.jpg" width="270" alt="pablomijangos" />
-            <h3 class="professions-title-name">Pablo Mijangos</h3>
-            <p class="jobs">Diseñador IU</p>
+            <img src="images/imagen6.jpg"  alt="pablomijangos" width="270"/>
+            <h3>Pablo Mijangos</h3>
+            <p>Diseñador IU</p>
           </li>
         </ul>
+      </div>
     </section>
   </main>
   <!-- PARTE FINAL -->
-  <footer class="footer">
-    <div class="footer-container container">
-      <address class="footer-address">
-        <a class="footer-logo" href="">Web Studio</a>
-        <a class="footer-location" href="Calz.Ticomán500,CiudaddeMéxico,CDMX,México">Calz. Ticomán 500, Ciudad de
-          México,CDMX, México</a>
-        <a class="footer-email" href="info@example.com">info@example.com</a>
-
-        <a class="footer-phone" href="tel:+525555296000 ">+525555296000</a>
+  <footer>
+    <div class="container">
+      <a class="logo" href="">Web Studio</a>
+      <address>
+        <ul>
+          <li>
+            <a class="location">Calz. Ticomán 500, Ciudad de México,CDMX, México</a>          
+          </li>
+          <li> 
+             <a class="contact" href="mailto:info@example.com">info@devstudio.com</a>
+          </li>
+          <li> 
+            <a class="contact" href="tel:+525555296000 ">+525555296000</a>
+          </li>
+        </ul> 
       </address>
     </div>
+  </footer>  
 </body>
+
 </html>

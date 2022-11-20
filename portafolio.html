@@ -7,109 +7,141 @@
   <meta name="description" content="El estudio de los conceptos basicos de HTML5 para principiantes" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+  <link rel="stylesheet" href="./css/modern-normalize.css">
   <link rel="stylesheet" href="css/styles.css" />
   <title>tarea de casa 1 sin CCS</title>
 
 </head>
+
 <body>
   <!-- ENCABEZADO -->
-  <header class="header-portafolio">
-    <div class="contenedor-principal container">
-      <a class="header-title" href="">WebStudio</a>
-      <nav class="menu">
-        <ul class="menu-items-1">
-          <li><a class="nav-1" href="">Estudio</a></li>
-          <li><a class="nav-1" href="portafolio.html">Portafolio</a></li>
-          <li><a class="nav-1" href="">Contactos</a></li>
+  <header class="page-header">
+    <nav>
+      <!-- LOGO -->
+      <a class="logo" href="./index.html">WebStudio</a>
+      <!-- MENU -->
+        <ul class="menu-nav-list">
+          <li><a class="page" href="./index.html">Estudio</a></li>
+          <li><a class="page current" href="./portafolio.html">Portafolio</a></li>
+          <li><a class="page" href="">Contactos</a></li>
         </ul>
+
       </nav>
-      <ul class="menu-items-2">
-        <li>
-          <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="phone" href="tel:+525555296000">+525555296000</a>
-        </li>
+      <!-- CONTACTOS -->
+      <ul class="menu-nav-contacts">
+        <li><a class="item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="item" href="tel:+525555296000">+525555296000</a></li>
       </ul>
-    </div>
-    </div>
   </header>
+  <!-- SECCION MEIN --> 
   <main>
-    <section class="products">
-      <div class="products-container container">
-        <header class="products-header">
-          <button type="button" class="button1">Todo</button>
-          <button type="button" class="button2">Sitios Web</button>
-          <button type="button" class="button3">Aplicaciones</button>
-          <button type="button" class="button4">Diseño</button>
-          <button type="button" class="button5">Marketing</button>
-        </header>
-        <ul class="products-items">
+    <!--SECTION - PORTAFOLIO  -->
+    <section class="products-portafolio">
+      <div class="container">
+      <!-- BOTONES - PORTAFOLIO -->
+      <ul class="list-buttons">
+          <li><button  class="button current" type="button">Todo</button></li>
+          <li><button  class="button" type="button">Sitios Web</button></li>
+          <li><button  class="button" type="button">Aplicaciones</button></li>
+          <li><button  class="button" type="button">Diseño</button></li>
+          <li><button  class="button" type="button">Marketing</button></li>
+      </ul>  
+      <!-- TARJETAS -->
+        <ul class="list-cards">
           <li>
-            <img class="products-img" src="./images/portafolio1.jpg" width="370" alt="" />
-            <h3 class="products-title">Tecnoduck</h3>
-            <p class="products-subtitle">Sitio-web</p>
+            <a href="#" class="link">
+            <img src="./images/portafolio1.jpg" alt="Tecnoduck" width="370"/>
+            <h2 class="portafolio-title">Tecnoduck</h2>
+            <p class="portafolio-subtitle">Sitio-web</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link">
+            <img src="./images/portafolio2.jpg" alt="Póster de Nueva Orleans vs Estrella Dorada" width="370"/>
+            <h2 class="portafolio-title">Póster de Nueva Orleans vs Estrella Dorada</h2>
+            <p class=portafolio-subtitle>Diseño</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link">
+            <img src="./images/portafolio3.jpg"  alt=">Restaurante Seafood" width="370"/>
+            <h2 class="portafolio-title">Restaurante Seafood</h2>
+            <p class="portafolio-subtitle">Aplicaciones</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link">
+            <img src="./images/portafolio4.jpg" alt="Proyecto Prime" width="370"/>
+            <h2 class="portafolio-title">Proyecto Prime</h2>
+            <p class="portafolio-subtitle">Marketing</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link">
+            <img src="./images/portafolio5.jpg" alt="Proyecto Cajas" width="370"/>
+            <h2 class="portafolio-title">Proyecto Cajas</h2>
+            <p class="portafolio-subtitle">Aplicaciones</p>
+            </a>
+          </li>
+        
+          <li>
+            <a href="#" class="link">
+            <img src="./images/portafolio6.jpg" alt="La inspiración no tiene límites" width="370"/>
+            <h2 class="portafolio-title">La inspiración no tiene límites</h2>
+            <p class="portafolio-subtitle">Sitio-web</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="link">
+            <img src="./images/portafolio7.jpg" alt="Edición Limitada" width="370"/>
+            <h2 class="portafolio-title">Edición Limitada</h2>
+            <p class="portafolio-subtitle">Diseño</p>
+            </a>
           </li>
           <li>
-            <img class="products-img"src="./images/portafolio2.jpg" width="370" alt="" />
-            <h3 class="products-title">Póster de Nueva Orleans vs Estrella Dorada</h3>
-            <p class=products-subtitle>Diseño</p>
+
+            <a href="#" class="link">
+            <img src="./images/portafolio8.jpg"  alt="Proyecto LAB" width="370"/>
+            <h2 class="portafolio-title">Proyecto LAB</h2>
+            <p class="portafolio-subtitle">Marketing</p>
+            </a>
           </li>
           <li>
-            <img  class="products-img"src="./images/portafolio3.jpg" width="370" alt="" />
-            <h3 class="products-title">Restaurante Seafood</h3>
-            <p class="products-subtitle">Aplicaciones</p>
-          </li>
-          <li>
-            <img  class="products-img"src="./images/portafolio4.jpg" width="370" alt="" />
-            <h3 class="products-title">Proyecto Prime</h3>
-            <p class="products-subtitle">Marketing</p>
-          </li>
-          <li>
-            <img  class="products-img"src="./images/portafolio5.jpg" width="370" alt="" />
-            <h3 class="products-title">Proyecto Cajas</h3>
-            <p class="products-subtitle">Aplicaciones</p>
-          </li>
-          <li>
-            <img  class="products-img"src="./images/portafolio6.jpg" width="370" alt="" />
-            <h3 class="products-title">La inspiración no tiene límites</h3>
-            <p class="products-subtitle">Sitio-web</p>
-          </li>
-          <li>
-            <img  class="products-img"src="./images/portafolio7.jpg" width="370" alt="" />
-            <h3 class="products-title">Edición Limitada</h3>
-            <p class="products-subtitle">Diseño</p>
-          </li>
-          <li>
-            <img  class="products-img"src="./images/portafolio8.jpg" width="370" alt="" />
-            <h3 class="products-title">Proyecto LAB</h3>
-            <p class="products-subtitle">Marketing</p>
-          </li>
-          <li>
-            <img  class="products-img" src="./images/portafolio9.jpg" width="370" alt="" />
-            <h3 class="products-title">Negocio en Crecimiento</h3>
-            <p class="products-subtitle">Aplicaciones</p>
+            <a href="#" class="link">
+            <img src="./images/portafolio9.jpg"  alt="Negocio en Crecimiento" width="370"/>
+            <h2 class="portafolio-title">Negocio en Crecimiento</h2>
+            <p class="portafolio-subtitle">Aplicaciones</p>
+            </a>
           </li>
         </ul>
       </div>
-    </section>
-    </ul>
-    </div>
+
     </section>
   </main>
-  <footer class="footer">
-    <div class="footer-container container">
-      <address class="footer-address">
-        <a class="footer-logo" href="">Web Studio</a>
-        <a class="footer-location" href="Calz.Ticomán500,CiudaddeMéxico,CDMX,México">Calz. Ticomán 500, Ciudad de
-          México,CDMX, México</a>
-        <a class="footer-email" href="mailto:info@example.com">info@example.com</a>
 
-        <a class="footer-phone" href="tel:+525555296000 ">+525555296000</a>
+  <footer>
+    <div class="container">
+      <a class="logo" href="">Web Studio</a>
+      <address>
+        <ul>
+          <li>
+            <a class="location">Calz. Ticomán 500, Ciudad de México,CDMX, México</a>
+          </li>
+          <li> 
+             <a class="contact" href="mailto:info@example.com">info@devstudio.com</a>
+          </li>
+          <li> 
+            <a class="contact" href="tel:+525555296000 ">+525555296000</a>
+          </li>
+        </ul> 
       </address>
     </div>
-  </footer>
+  </footer>  
 </body>
 
 </html>
